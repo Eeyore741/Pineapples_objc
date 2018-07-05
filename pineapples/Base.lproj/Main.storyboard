@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pineapple Vc-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="PineappleVc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pineapple" translatesAutoresizingMaskIntoConstraints="NO" id="uV5-Eg-ztX">
+                                <rect key="frame" x="137.5" y="432" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0OU-lF-hEa"/>
+                                    <constraint firstAttribute="width" constant="100" id="7W8-sC-JoZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peter has two pineapples Peter has two pineapples Peter has two pineapples Peter has two pineapples Peter has two pineapples " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyL-gu-8fW" userLabel="label">
+                                <rect key="frame" x="16" y="296.5" width="343" height="95.5"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🇬🇧" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alP-oN-Wam" userLabel="flag">
+                                <rect key="frame" x="137" y="156.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9LZ-Mb-JYL"/>
+                                    <constraint firstAttribute="width" constant="100" id="XQj-eQ-niR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myU-sQ-E5l" userLabel="minusButton">
+                                <rect key="frame" x="76" y="478" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bKg-3P-c5Q"/>
+                                    <constraint firstAttribute="width" constant="40" id="r0g-h0-T8W"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="minus"/>
+                                <connections>
+                                    <action selector="onMinusButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RLZ-wg-RZT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnZ-B5-vr9" userLabel="plusButton">
+                                <rect key="frame" x="283" y="478" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="RCc-K5-qXW"/>
+                                    <constraint firstAttribute="height" constant="40" id="gN3-XE-8yL"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="plus"/>
+                                <connections>
+                                    <action selector="onPlusButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c3J-YX-HpO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uV5-Eg-ztX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5pb-xV-9nm"/>
+                            <constraint firstItem="uV5-Eg-ztX" firstAttribute="leading" secondItem="myU-sQ-E5l" secondAttribute="trailing" constant="21.5" id="6Bm-ss-zyu"/>
+                            <constraint firstItem="alP-oN-Wam" firstAttribute="bottom" secondItem="iyL-gu-8fW" secondAttribute="top" constant="-40" id="7SX-Y9-xQI"/>
+                            <constraint firstItem="alP-oN-Wam" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Opr-50-VzZ"/>
+                            <constraint firstItem="UnZ-B5-vr9" firstAttribute="leading" secondItem="uV5-Eg-ztX" secondAttribute="trailing" constant="45.5" id="dG3-LM-6s2"/>
+                            <constraint firstItem="iyL-gu-8fW" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="i9K-po-OAB"/>
+                            <constraint firstItem="myU-sQ-E5l" firstAttribute="bottom" secondItem="uV5-Eg-ztX" secondAttribute="bottom" constant="-14" id="kEz-TC-Tg8"/>
+                            <constraint firstItem="iyL-gu-8fW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lJ1-hT-BSp"/>
+                            <constraint firstItem="iyL-gu-8fW" firstAttribute="bottom" secondItem="uV5-Eg-ztX" secondAttribute="top" constant="-40" id="n9a-jy-blg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iyL-gu-8fW" secondAttribute="trailing" constant="16" id="vZ3-l1-CIr"/>
+                            <constraint firstItem="UnZ-B5-vr9" firstAttribute="bottom" secondItem="uV5-Eg-ztX" secondAttribute="bottom" constant="-14" id="xXY-Gx-JYD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="flagLabel" destination="alP-oN-Wam" id="0zB-5P-ONC"/>
+                        <outlet property="textLabel" destination="iyL-gu-8fW" id="dnF-nb-zbP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="minus" width="52" height="52"/>
+        <image name="pineapple" width="100" height="128"/>
+        <image name="plus" width="52" height="52"/>
+    </resources>
+</document>

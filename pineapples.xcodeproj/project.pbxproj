@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA1E81220E7E63400D59321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA1E81120E7E63400D59321 /* AppDelegate.m */; };
+		FAA1E81520E7E63400D59321 /* PineappleVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA1E81420E7E63400D59321 /* PineappleVc.m */; };
+		FAA1E81820E7E63400D59321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA1E81620E7E63400D59321 /* Main.storyboard */; };
+		FAA1E81A20E7E63800D59321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA1E81920E7E63800D59321 /* Assets.xcassets */; };
+		FAA1E81D20E7E63800D59321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA1E81B20E7E63800D59321 /* LaunchScreen.storyboard */; };
+		FAA1E82020E7E63800D59321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA1E81F20E7E63800D59321 /* main.m */; };
+		FAA1E82720E7E76200D59321 /* res in Resources */ = {isa = PBXBuildFile; fileRef = FAA1E82620E7E76200D59321 /* res */; };
+		FAA1E82A20EA9C8900D59321 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = FAA1E82C20EA9C8900D59321 /* Localizable.stringsdict */; };
+		FAA1E83A20ECFDFA00D59321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA1E83820ECFDFA00D59321 /* InfoPlist.strings */; };
+		FAA1E83D20ECFDFA00D59321 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA1E83B20ECFDFA00D59321 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAA1E80D20E7E63400D59321 /* pineapples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pineapples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA1E81020E7E63400D59321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA1E81120E7E63400D59321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA1E81320E7E63400D59321 /* PineappleVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PineappleVc.h; sourceTree = "<group>"; };
+		FAA1E81420E7E63400D59321 /* PineappleVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PineappleVc.m; sourceTree = "<group>"; };
+		FAA1E81720E7E63400D59321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA1E81920E7E63800D59321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA1E81C20E7E63800D59321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA1E81E20E7E63800D59321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA1E81F20E7E63800D59321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA1E82620E7E76200D59321 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = pineapples/res; sourceTree = "<group>"; };
+		FAA1E82D20EA9CA000D59321 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		FAA1E83620ECDE0D00D59321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		FAA1E83920ECFDFA00D59321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAA1E83C20ECFDFA00D59321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FAA1E83E20ECFDFA00D59321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA1E80A20E7E63400D59321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA1E80420E7E63400D59321 = {
+			isa = PBXGroup;
+			children = (
+				FAA1E82620E7E76200D59321 /* res */,
+				FAA1E80F20E7E63400D59321 /* pineapples */,
+				FAA1E80E20E7E63400D59321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA1E80E20E7E63400D59321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1E80D20E7E63400D59321 /* pineapples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA1E80F20E7E63400D59321 /* pineapples */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1E82C20EA9C8900D59321 /* Localizable.stringsdict */,
+				FAA1E81020E7E63400D59321 /* AppDelegate.h */,
+				FAA1E81120E7E63400D59321 /* AppDelegate.m */,
+				FAA1E81320E7E63400D59321 /* PineappleVc.h */,
+				FAA1E81420E7E63400D59321 /* PineappleVc.m */,
+				FAA1E81620E7E63400D59321 /* Main.storyboard */,
+				FAA1E81920E7E63800D59321 /* Assets.xcassets */,
+				FAA1E81B20E7E63800D59321 /* LaunchScreen.storyboard */,
+				FAA1E81E20E7E63800D59321 /* Info.plist */,
+				FAA1E83B20ECFDFA00D59321 /* Localizable.strings */,
+				FAA1E83820ECFDFA00D59321 /* InfoPlist.strings */,
+				FAA1E81F20E7E63800D59321 /* main.m */,
+			);
+			path = pineapples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA1E80C20E7E63400D59321 /* pineapples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA1E82320E7E63800D59321 /* Build configuration list for PBXNativeTarget "pineapples" */;
+			buildPhases = (
+				FAA1E80920E7E63400D59321 /* Sources */,
+				FAA1E80A20E7E63400D59321 /* Frameworks */,
+				FAA1E80B20E7E63400D59321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pineapples;
+			productName = pineapples;
+			productReference = FAA1E80D20E7E63400D59321 /* pineapples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA1E80520E7E63400D59321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = vitaliikuznetsov;
+				TargetAttributes = {
+					FAA1E80C20E7E63400D59321 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FAA1E80820E7E63400D59321 /* Build configuration list for PBXProject "pineapples" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ru,
+				en,
+			);
+			mainGroup = FAA1E80420E7E63400D59321;
+			productRefGroup = FAA1E80E20E7E63400D59321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA1E80C20E7E63400D59321 /* pineapples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA1E80B20E7E63400D59321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA1E81D20E7E63800D59321 /* LaunchScreen.storyboard in Resources */,
+				FAA1E83A20ECFDFA00D59321 /* InfoPlist.strings in Resources */,
+				FAA1E82720E7E76200D59321 /* res in Resources */,
+				FAA1E81A20E7E63800D59321 /* Assets.xcassets in Resources */,
+				FAA1E83D20ECFDFA00D59321 /* Localizable.strings in Resources */,
+				FAA1E81820E7E63400D59321 /* Main.storyboard in Resources */,
+				FAA1E82A20EA9C8900D59321 /* Localizable.stringsdict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA1E80920E7E63400D59321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA1E81520E7E63400D59321 /* PineappleVc.m in Sources */,
+				FAA1E82020E7E63800D59321 /* main.m in Sources */,
+				FAA1E81220E7E63400D59321 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAA1E81620E7E63400D59321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA1E81720E7E63400D59321 /* Base */,
+				FAA1E83E20ECFDFA00D59321 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA1E81B20E7E63800D59321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA1E81C20E7E63800D59321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA1E82C20EA9C8900D59321 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA1E82D20EA9CA000D59321 /* ru */,
+				FAA1E83620ECDE0D00D59321 /* en */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		FAA1E83820ECFDFA00D59321 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA1E83920ECFDFA00D59321 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAA1E83B20ECFDFA00D59321 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA1E83C20ECFDFA00D59321 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA1E82120E7E63800D59321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA1E82220E7E63800D59321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA1E82420E7E63800D59321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72U4LHPYPZ;
+				INFOPLIST_FILE = pineapples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vk.pineapples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA1E82520E7E63800D59321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72U4LHPYPZ;
+				INFOPLIST_FILE = pineapples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vk.pineapples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA1E80820E7E63400D59321 /* Build configuration list for PBXProject "pineapples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA1E82120E7E63800D59321 /* Debug */,
+				FAA1E82220E7E63800D59321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA1E82320E7E63800D59321 /* Build configuration list for PBXNativeTarget "pineapples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA1E82420E7E63800D59321 /* Debug */,
+				FAA1E82520E7E63800D59321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA1E80520E7E63400D59321 /* Project object */;
+}
